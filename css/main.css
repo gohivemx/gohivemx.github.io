@@ -1271,8 +1271,8 @@ input::-moz-focus-inner {
     margin: 0;
     padding: 0;
     position: absolute;
-    right: 10px;
-    top: 36px;
+    right: 50px;
+    top: 40px;
 }
 
 .home-logo a {
@@ -1715,7 +1715,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
     .home-logo {
-        right: 10px;
+        right: 30px;
     }
 
     .home-content h1 {
@@ -2018,7 +2018,7 @@ html.no-csstransitions .home-content__main {
     }
 
     .home-logo {
-        right: 10px;
+        right: 20px;
     }
 
     .home-logo img {
@@ -2422,9 +2422,9 @@ html.no-csstransitions .home-content__main {
 
 /*# sourceMappingURL=main.css.map */
 
-.hivelogo {
-    max-width: 50%;
-    height: 100%;
+.home-logo img.hivelogo {
+    width: auto;
+    height: 25px;
 }
 
 .fullsizelogo {
